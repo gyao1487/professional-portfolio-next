@@ -13,6 +13,13 @@ module.exports = {
       fontFamily: {
         ws: ["var(--font-ws)", ...fontFamily.sans],
       },
+      //-------SET COLOR SCHEME HERE-------//
+      colors: {
+        dark: "#1b1b1b",
+        light: "#f5f5f5",
+        "unforgiven": "#B63E96",
+        primaryDark: "#58E6D9",
+      },
     },
   },
   plugins: [],
