@@ -11,7 +11,10 @@ const Logo = () => {
         href="/"
         className="w-16 h-16 bg-black text-white flex items-center justify-center
         text-xl font-bold"
-        whileHover={{ scale: 1.1}}
+        whileHover={{ 
+            backgroundColor: "#b30d3d",
+            transition: {duration: 0.3}
+        }}
       >
         GY
       </MotionLink>
