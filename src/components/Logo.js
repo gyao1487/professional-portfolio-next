@@ -12,7 +12,7 @@ const Logo = () => {
         className="w-16 h-16 bg-black text-white flex items-center justify-center
         text-xl font-bold"
         whileHover={{ 
-            backgroundColor: "#b30d3d",
+            backgroundColor: "#bb2647",
             transition: {duration: 0.3}
         }}
       >

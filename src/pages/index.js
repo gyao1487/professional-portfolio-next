@@ -20,7 +20,7 @@ export default function Home() {
        
       </Head>
       <main className={`${workSans.variable} font-ws`}>
-       HOME BLOP
+       
       </main>
     </>
   );

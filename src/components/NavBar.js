@@ -1,13 +1,22 @@
 import Link from "next/link";
 import React from "react";
 import Logo from "./Logo";
+import { useRouter } from "next/router";
 
 const CustomLink = ({ href, title, className = "" }) => {
+  const router = useRouter();
+  console.log(router)
   return (
-    <Link href={href} className={`${className} relative`} >
+    <Link href={href} className={`${className} relative group`}>
       {title}
 
-      <span className="h-1 inline-block w-full bg-red absolute left-0 -bottom-1 ">
+      <span
+        className= {`h-[2px] inline-block bg-red 
+      absolute left-0 -bottom-1
+      group-hover:w-full transition-[width] ease duration-300
+      ${router.asPath === href ? "w-full" : "w-0"}
+      `}
+      >
         &nbsp;
       </span>
     </Link>
