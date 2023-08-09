@@ -1,8 +1,8 @@
 export const LinkedInIcon = ({ className, ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="2em"
-    height="2em"
+    width="2.5em"
+    height="2.5em"
     viewBox="0 0 256 256"
     {...rest}
     className={`w-full h-auto ${className}`}
@@ -22,8 +22,8 @@ export const LinkedInIcon = ({ className, ...rest }) => (
 export const GithubIcon = ({ className, ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="2em"
-    height="2em"
+    width="3em"
+    height="3em"
     viewBox="0 0 512 512"
     {...rest}
     className={`w-full h-auto ${className}`}
