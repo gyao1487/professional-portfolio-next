@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Head from "next/head";
-import profilePic from "../../public/profilePic.png"
+import profilePic from "../../public/profilePic.png";
+import AnimatedText from "@/components/AnimatedText";
 
 import { Work_Sans } from "next/font/google";
 import Layout from "@/components/Layout";
@@ -21,13 +22,26 @@ export default function Home() {
         />
       </Head>
       <main
-        className={`${workSans.variable} font-ws flex items-center text-dark w-full min-h-screen`}
+        // I removed items-center but can add it if it causes problems
+        className={`${workSans.variable} font-ws flex text-dark w-full min-h-screen`}
       >
-        <Layout>
-          <h1>This is Home Bitches</h1>
+        <Layout className="pt-0">
           <div className="flex items-center justify-between w-full">
-            <div>
-              <Image src={profilePic} alt="GraceY" className="rounded-full" width={350} />
+            <div className="w-1/2">
+              <Image
+                src={profilePic}
+                alt="GraceY"
+                className="rounded-full"
+                width={350}
+              />
+            </div>
+            <div className="w-1/2 text-lg flex flex-col self-center">
+              <h1>Hi, my name is</h1>
+              <AnimatedText text="GRACE YAO"/>
+              <p>
+                A Chicago-based full-stack developer with a passion for creating
+                beautiful, functional, and accessible web applications.
+              </p>
             </div>
           </div>
         </Layout>
