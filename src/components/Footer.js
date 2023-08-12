@@ -8,10 +8,12 @@ return (
     <div
     className ="w-full px-12 py-8 flex items-center justify-between"
     >
+{/* Footer text */}
 <div>
     This is my footer! Woo!
 </div>
 
+{/* Socials Icons */}
      <nav className ="flex">
             <motion.a href="https://www.linkedin.com/in/grace-yao-51304b139/" target={"_blank"}
             whileHover={{y:-2}}

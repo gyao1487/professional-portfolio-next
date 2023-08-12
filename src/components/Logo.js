@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 
 const MotionLink = motion(Link);
 
+// Logo - changes color when hover, links to home page
 const Logo = () => {
   return (
     <div className="flex items-center justify-center mt-2">

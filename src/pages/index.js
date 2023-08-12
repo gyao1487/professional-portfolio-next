@@ -1,11 +1,17 @@
 import Image from "next/image";
 import Head from "next/head";
-import profilePic from "../../public/profilePic.png";
+import Link from "next/Link";
+
+
 import AnimatedText from "@/components/AnimatedText";
 import Typewriter from "typewriter-effect";
 
 import { Work_Sans } from "next/font/google";
 import Layout from "@/components/Layout";
+import ResumeBtn from "@/components/ResumeBtn";
+import ContactLink from "@/components/ContactLink";
+
+import profilePic from "../../public/profilePic.png";
 
 const workSans = Work_Sans({
   subsets: ["latin"],
@@ -28,13 +34,15 @@ export default function Home() {
         className={`${workSans.variable} font-ws flex text-dark w-full min-h-screen`}
       >
         <Layout className="pt-0">
-          <div className="flex items-center justify-between w-full">
-            <div className="w-1/2">
+  {/* -----------------TOP SECTION------------------ */}
+          <div className="flex items-center justify-between w-full pt-10">
+            <div className="w-1/2 pr-10">
               <Image
                 src={profilePic}
                 alt="GraceY"
                 className="rounded-full"
                 width={350}
+                min-width={200}
               />
             </div>
 
@@ -43,6 +51,7 @@ export default function Home() {
               {/* <AnimatedText text="GRACE YAO"/> */}
 
              <h1 className="typedName py-5">
+              {/* I want to figure out how to loop */}
               <Typewriter
                 onInit={(typewriter) => {
                   typewriter
@@ -60,8 +69,25 @@ export default function Home() {
                 A Chicago-based full-stack developer with a passion for creating
                 beautiful, functional, and accessible web applications.
               </p>
+              <div className ="flex items-center self-start mt-5">
+                <ResumeBtn/>
+                <ContactLink/>
+              </div>
             </div>
           </div>
+
+{/* -----------------SKILLS SECTION------------------ */}
+
+
+
+
+
+
+
+{/* -----------------PROJECTS HIGHLIGHT----------------- */}
+
+
+
         </Layout>
       </main>
     </>

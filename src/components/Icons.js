@@ -1,8 +1,8 @@
 export const LinkedInIcon = ({ className, ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="2.5em"
-    height="2.5em"
+    width="3em"
+    height="3em"
     viewBox="0 0 256 256"
     {...rest}
     className={`w-full h-auto ${className}`}
