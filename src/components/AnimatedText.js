@@ -1,4 +1,17 @@
 import React from "react";
+import { motion } from "framer-motion";
+
+const quote = {
+  initial: {
+    opacity: 0,
+  },
+  animate: {
+    opacity: 1,
+    transition: {
+      delay: 0.5,
+    },
+  },
+};
 
 const AnimatedText = ({ text, className = "" }) => {
   return (
@@ -6,13 +19,18 @@ const AnimatedText = ({ text, className = "" }) => {
       className="w-full mx-auto py-2 flex 
     overflow-hidden"
     >
-      <h1
+      <motion.h1
         className={`inline-block w-full text-dark font-bold capitalize text-6xl ${className}`}
+        variants= {quote}
+        initial="initial"
+        animate="animate"
       >
         {text.split(" ").map((word, index) => (
-          <span key={word + "-" + index}>{word}&nbsp;</span>
+          <span key={word + "-" + index} className="inline-block">
+            {word}&nbsp;
+          </span>
         ))}
-      </h1>
+      </motion.h1>
     </div>
   );
 };
