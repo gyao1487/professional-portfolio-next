@@ -19,7 +19,7 @@ module.exports = {
         light: "#f5f5f5",
         primary: "#B63E96",
         primaryDark: "#58E6D9",
-        red: "#b30d3d"
+        red: "#bb2647"
       },
     },
   },

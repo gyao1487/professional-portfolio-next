@@ -26,24 +26,29 @@ const CustomLink = ({ href, title, className = "" }) => {
 
 const NavBar = () => {
   return (
-    <header className="w-full px-12 py-8 flex items-center ">
-      <div className="flex items-center justify-between">
-        <div className="pr-12">
+    <header className="">
+      <nav>
+      <div className="flex container lg:py-10 flex-wrap items-center justify-between px-12 py-8 mx-auto">
+        <div className="flex ">
           <Logo />
         </div>
-        {/* Navbar with routes */}
-        <nav>
-          <CustomLink href="/" title="HOME" className="mr-4" />
-          <CustomLink href="/about" title="ABOUT" className="mx-4" />
-          <CustomLink href="/projects" title="PROJECTS" className="mx-4" />
-          <CustomLink href="/articles" title="ARTICLES" className="mx-4" />
-          <CustomLink href="/contact" title="CONTACT" className="ml-4" />
-        </nav>
-        <div className ="">Dark/Lightmode</div>
-      </div>
 
       
 
+        {/* Menu + Routes */}
+        <ul className="flex items-center space-x-8">
+          <li><CustomLink href="/" title="HOME"/></li>
+          <li><CustomLink href="/about" title="ABOUT" /></li>
+          <li><CustomLink href="/projects" title="PROJECTS"/></li>
+            {/* <CustomLink href="/articles" title="ARTICLES" /> */}
+          <li><CustomLink href="/contact" title="CONTACT" /></li>
+          <li>Light/Dark</li>
+        </ul>
+
+        {/* Darkmode/Lightmode Toggle*/}
+        {/* <div className ="mx-4">Dark/Light</div> */}
+      </div>
+      </nav>
     </header>
   );
 };
