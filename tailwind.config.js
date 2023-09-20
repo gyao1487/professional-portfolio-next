@@ -15,13 +15,27 @@ module.exports = {
       },
       //-------SET COLOR SCHEME HERE-------//
       colors: {
-        dark: "#1b1b1b",
-        light: "#f5f5f5",
-        primary: "#B63E96",
-        primaryDark: "#58E6D9",
-        red: "#bb2647"
+        // Black and white 
+        dark: "#151326",
+        lessDark: "#434259",
+        light: "#F5F0F6",
+
+        //Greys
+        grey:"#A49DA5",
+        greyBlue:"#B9A9C3",
+  
+        //Reds
+        red: "#B4004E",
+        // red-dark: ""
+
+
+        //Accents
+        blue: "#B8CFFF",
+        lavender: "#BCB3F2"
+
       },
     },
   },
   plugins: [],
 };
+

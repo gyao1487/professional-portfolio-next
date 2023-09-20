@@ -46,7 +46,7 @@ export default function Home() {
               />
             </div>
 
-            <div className="w-1/2 text-lg flex flex-col self-center">
+            <div className="w-1/2 text-lg flex flex-col self-center text-red">
               <p>Hi, my name is</p>
               {/* <AnimatedText text="GRACE YAO"/> */}
 
