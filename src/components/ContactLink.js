@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import {FaAngleRight} from "react-icons/fa";
 
 const MotionLink = motion(Link);
 
@@ -18,8 +19,12 @@ const ContactLink = () => {
             transition: {duration: 0.3}
         }}
       >
-        Contact Me!
+        Email Me! 
+
+        <FaAngleRight className={'w-6 ml-1'}/>
       </MotionLink>
+      
+   
     </div>
   );
 };

@@ -28,7 +28,7 @@ const NavBar = () => {
   return (
     <header className="">
       <nav>
-      <div className="flex container lg:py-10 flex-wrap items-center justify-between px-12 py-8 mx-auto">
+      <div className="flex container lg:py-10 flex-wrap items-center justify-between py-8 mx-auto">
         <div className="flex ">
           <Logo />
         </div>
@@ -42,7 +42,7 @@ const NavBar = () => {
           <li><CustomLink href="/projects" title="PROJECTS"/></li>
             {/* <CustomLink href="/articles" title="ARTICLES" /> */}
           <li><CustomLink href="/contact" title="CONTACT" /></li>
-          <li>Light/Dark</li>
+          <li>Settings</li>
         </ul>
 
         {/* Darkmode/Lightmode Toggle*/}
