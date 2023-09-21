@@ -18,7 +18,7 @@ const contact = () => {
             <p class="mb-2 text-greyDark">gyao1487@gmail.com</p>
           </div>
 
-          <div class="mb-12 w-full shrink-0 grow-0 basis-auto md:mb-0 md:w-6/12 md:px-3 lg:px-6">
+          <div class="mb-12 mt-12 w-full shrink-0 grow-0 basis-auto sm:mx-auto sm:w-full sm:max-w-sm">
             {/* <form>
               <div class="relative mb-6" data-te-input-wrapper-init>
                 <input
@@ -86,10 +86,11 @@ const contact = () => {
                 Send
               </button>
             </form> */}
+            <ContactForm />
           </div>
         </div>
       </section>
-      <ContactForm />
+      
     </div>
   );
 };
