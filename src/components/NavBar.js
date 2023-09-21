@@ -26,17 +26,17 @@ const CustomLink = ({ href, title, className = "" }) => {
 
 const NavBar = () => {
   return (
-    <header className="">
-      <nav>
-      <div className="flex container lg:py-10 flex-wrap items-center justify-between py-8 mx-auto">
-        <div className="flex ">
+    <div className="">
+      <nav className="border-b border-black/10">
+
+      <div className="flex py-5 items-center justify-between px-5">
+        
+        <div className="flex justify-center items-center">
           <Logo />
         </div>
 
-      
-
         {/* Menu + Routes */}
-        <ul className="flex items-center space-x-8">
+        <ul className="flex items-center justify-center flex-wrap space-x-8 relative">
           <li><CustomLink href="/" title="HOME"/></li>
           <li><CustomLink href="/about" title="ABOUT" /></li>
           <li><CustomLink href="/projects" title="PROJECTS"/></li>
@@ -49,7 +49,7 @@ const NavBar = () => {
         {/* <div className ="mx-4">Dark/Light</div> */}
       </div>
       </nav>
-    </header>
+    </div>
   );
 };
 

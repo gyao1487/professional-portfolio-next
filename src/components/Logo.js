@@ -7,7 +7,7 @@ const MotionLink = motion(Link);
 // Logo - changes color when hover, links to home page
 const Logo = () => {
   return (
-    <div className="flex items-center justify-center mt-2">
+    <div className="flex items-center justify-center">
       <MotionLink
         href="/"
         className="w-16 h-16 bg-dark text-white flex items-center justify-center
