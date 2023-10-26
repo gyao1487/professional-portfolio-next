@@ -29,9 +29,9 @@ export default function Home() {
         />
       </Head>
 
-      <main
+      <div
         // I removed items-center but can add it if it causes problems
-        className={`${workSans.variable} font-ws flex text-dark w-full min-h-screen`}
+        className={`${workSans.variable} font-ws flex text-dark w-full`}
       >
         <Layout className="pt-0">
   {/* -----------------TOP SECTION------------------ */}
@@ -89,7 +89,7 @@ export default function Home() {
 
 
         </Layout>
-      </main>
+      </div>
     </>
   );
 }

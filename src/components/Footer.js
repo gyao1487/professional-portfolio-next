@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const Footer = () => {
   return (
-    <footer className="w-full border-t-2 border-solid border-dark px-12 py-8 flex items-center justify-between">
+    <footer className="w-full border-t-2 border-solid border-dark px-12 py-8 flex items-center justify-between mt-auto">
       {/* Footer text */}
       <div>2022 - 2023 &copy; Grace Yao. All rights reserved.</div>
 
