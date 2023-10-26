@@ -3,23 +3,44 @@ import ContactForm from "@/components/ContactForm";
 
 const contact = () => {
   return (
-    <div class="container my-24 mx-auto md:px-6">
-      <section class="mb-32">
-        <div class="flex flex-wrap">
-          <div class="mb-10 w-full shrink-0 grow-0 basis-auto md:mb-0 md:w-6/12 md:px-3 lg:px-6">
-            <h2 class="mb-6 text-3xl">Get in touch!</h2>
-            <p class="mb-6 text-greyDark">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Laudantium, modi accusantium ipsum corporis quia asperiores
-              dolorem nisi corrupti eveniet dolores ad maiores repellendus enim
-              autem omnis fugiat perspiciatis? Ad, veritatis.
-            </p>
-            <p class="mb-2 text-greyDark">+1 630-923-2190</p>
-            <p class="mb-2 text-greyDark">gyao1487@gmail.com</p>
-          </div>
+    <>
+      {/* <div
+        class="flex items-center p-4 mb-4 text-sm text-green-800 rounded-lg bg-green-50 dark:bg-gray-800 dark:text-green-400"
+        role="alert"
+      >
+        <svg
+          class="flex-shrink-0 inline w-4 h-4 mr-3"
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="currentColor"
+          viewBox="0 0 20 20"
+        >
+          <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5ZM9.5 4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM12 15H8a1 1 0 0 1 0-2h1v-3H8a1 1 0 0 1 0-2h2a1 1 0 0 1 1 1v4h1a1 1 0 0 1 0 2Z" />
+        </svg>
+        <span class="sr-only">Info</span>
+        <div>
+          <span class="font-medium">Success alert!</span> Change a few things up
+          and try submitting again.
+        </div>
+      </div> */}
+      
+      <div class="container my-24 mx-auto md:px-6">
+        <section class="mb-32">
+          <div class="flex flex-wrap">
+            <div class="mb-10 w-full shrink-0 grow-0 basis-auto md:mb-0 md:w-6/12 md:px-3 lg:px-6">
+              <h2 class="mb-6 text-3xl">Get in touch!</h2>
+              <p class="mb-6 text-greyDark">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laudantium, modi accusantium ipsum corporis quia asperiores
+                dolorem nisi corrupti eveniet dolores ad maiores repellendus
+                enim autem omnis fugiat perspiciatis? Ad, veritatis.
+              </p>
+              <p class="mb-2 text-greyDark">+1 630-923-2190</p>
+              <p class="mb-2 text-greyDark">gyao1487@gmail.com</p>
+            </div>
 
-          <div class="mb-12 mt-12 w-full shrink-0 grow-0 basis-auto sm:mx-auto sm:w-full sm:max-w-sm">
-            {/* <form>
+            <div class="mb-12 mt-12 w-full shrink-0 grow-0 basis-auto sm:mx-auto sm:w-full sm:max-w-sm">
+              {/* <form>
               <div class="relative mb-6" data-te-input-wrapper-init>
                 <input
                   type="text"
@@ -86,12 +107,12 @@ const contact = () => {
                 Send
               </button>
             </form> */}
-            <ContactForm />
+              <ContactForm />
+            </div>
           </div>
-        </div>
-      </section>
-      
-    </div>
+        </section>
+      </div>
+    </>
   );
 };
 

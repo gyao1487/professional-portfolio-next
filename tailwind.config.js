@@ -26,12 +26,13 @@ module.exports = {
   
         //Reds
         red: "#B4004E",
-        // red-dark: ""
-
+        redDark:"#750033",
+        redDarkest:"#360017",
 
         //Accents
         blue: "#B8CFFF",
-        lavender: "#BCB3F2"
+        lavender: "#BCB3F2",
+        peach:"#F2CFC2"
 
       },
     },
