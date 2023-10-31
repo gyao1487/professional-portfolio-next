@@ -1,0 +1,74 @@
+[
+    {
+        "title": "Time Well Spent",
+        "tagline": "React app connecting volunteers with nonprofits",
+        "description": "TIME WELL SPENT is an application designed to connect users to charities and nonprofits in need of help. Charities will be able to post repeating or singular events on their pages, and users will be able to discover them using our search feature or google maps integration. Once charities are discovered, users can volunteer for posted events or donate directly to that charity. Built with the MERN stack, utilizing Tailwind CSS and Google OneTap as well.",
+        "link": "https://time-well-spent-g45n69qnt-gyao1487.vercel.app/",
+        "github": "https://github.com/gyao1487/time-well-spent",
+        "tags": [
+            "React",
+            "MongoDB",
+            "GraphQL",
+            "Tailwind CSS",
+            "Node.js",
+            "Express.js",
+            "JWT",
+            "Apollo",
+            "Vercel"
+        ],
+        "features": [
+            {
+                "title": "Google Maps",
+                "description": "Users can search for nonprofits by location and view them on a map."
+            },
+            {
+                "title": "User Profiles",
+                "description": "Users can create profiles and view their past volunteer events."
+            },
+            {
+                "title": "Event Creation",
+                "description": "Nonprofits can create events and view their past events."
+            },
+            {
+                "title": "Event Registration",
+                "description": "Users can register for events and view their past events."
+            }
+        ],
+        "images": [
+            {
+                "src": "sample",
+                "alt": "sample"
+            }
+        ]
+    },
+    {
+        "title": "Bandwagon",
+        "tagline": "Platform connecting live music enthusiasts with local artists and shows",
+        "description": "Bandwagon is a platform to connect both live music enthusiasts and apsiring musicians alike. Users can use this app to discover local local-up-and coming artists, as well as find local live music shows to attend. Music artists who are just starting out are able to utilize the platform to to reach new audiences, build a following, and advertise their upcoming shows/music. Built using JavaScript, MySQL, Express, Sequelize, Handlebars, and Fomantic UI.",
+        "link": "https://bandwagon-platform.herokuapp.com/",
+        "github": "https://github.com/gyao1487/bandwagon-music-artist-platform",
+        "tags": "React, Express, Node.js, MySQL, Sequelize, jQuery, Heroku",
+        "features": "",
+        "images": [
+            {
+                "src": "sample",
+                "alt": "sample"
+            }
+        ]
+    },
+    {
+        "title": "Cards Against Apathy",
+        "tagline": "Simple HTML/CSS/JS game to switch up your workouts",
+        "description": "Cards Against Apathy is a simple web application that allows users to switch up their workouts by randomizing the exercises the user will be performing using a deck of cards. Should the user like the workout they performed, they can save the series of activities into their personalized favorites section, where they will be able to find it whenever they'd like. Built using HTML, CSS, and JavaScript.",
+        "link": "https://the-fighting-mongooses-official.github.io/Cards-Against-Apathy/",
+        "github": "https://github.com/The-Fighting-Mongooses-Official/Cards-Against-Apathy",
+        "tags": "HTML,CSS,JS",
+        "features": "none",
+        "images": [
+            {
+                "src": "sample",
+                "alt": "sample"
+            }
+        ]
+    }
+]
